@@ -10,7 +10,7 @@ M.ui = {
 }
 
 M.plugins = {
-  user = require "custom.plugins",
+  user = require "custom.plugins.init",
 }
 
 M.mappings = require("custom.mappings")
