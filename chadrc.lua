@@ -9,9 +9,7 @@ M.ui = {
   theme = "gruvchad",
 }
 
-M.plugins = {
-  user = require "custom.plugins.init",
-}
+M.plugins = require("custom.plugins")
 
 M.mappings = require("custom.mappings")
 

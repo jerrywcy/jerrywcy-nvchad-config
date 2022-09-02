@@ -41,13 +41,13 @@ vim.o.cmdheight = 1
 vim.o.autoread = true
 vim.bo.autoread = true
 -- 禁止折行
-vim.wo.wrap = false
+vim.wo.wrap = true
 -- 光标在行首尾时<Left><Right>可以跳到下一行
 vim.o.whichwrap = "<,>,[,]"
 -- 允许隐藏被修改过的buffer
 vim.o.hidden = true
 -- 鼠标支持
-vim.o.mouse = "a"
+vim.o.mouse = ""
 -- 禁止创建备份文件
 vim.o.backup = false
 vim.o.writebackup = false
@@ -82,4 +82,4 @@ vim.o.showmode = false
 -- 配置剪切板
 vim.opt.clipboard = "unnamedplus"
 
--- vim.call("NvimTreeToggle");
+-- require("symbols-outline").setup()
